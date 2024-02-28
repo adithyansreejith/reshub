@@ -30,7 +30,7 @@ body {
         th, td {
             padding: 10px;
         }
-
+/*from curiosity repo*/
 .heading-container {
     display: flex;
     flex-direction: column;
@@ -67,7 +67,7 @@ body {
     flex-direction: row;
 
 }
-
+/*for links given on top*/
 a:link,a:visited {
             color: white;
             text-decoration: none;
@@ -77,7 +77,7 @@ a:link,a:visited {
              background-color: white;
              color: black;
         } 
-
+/*Made a different class for the hyperlinks in topic page*/
 .linked:link,.linked:visited {
   font-weight: bold;
   color: blue;
@@ -86,7 +86,7 @@ a:link,a:visited {
 .linked:hover {
   color: red;
 }
-
+/*Trying to make the embedded video and links side by side*/
 #divs {
   content: "";
   display: table;
