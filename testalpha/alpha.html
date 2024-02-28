@@ -1,23 +1,75 @@
+<!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" href="alpha.css">
-    <title>
-        reshubucc
-    </title>
-    <body style="background-color: black; font-family: Verdana, Geneva, Tahoma, sans-serif; color: ghostwhite;">
-        <h1 style="text-align: left;">Resource Hub</h1>
-        <table style="border-spacing: 10cap; text-align: center;">
-            <tr>
-                <th><a href="alpha.html">Home</a></th>               
-                <th><a href="alphatopic.html">C++</a></th>
-                <th>HTML</th>
-                <th>PHP</th>
-                <th>SQL</th>
-                <th>Java</th>
-            </tr>
-        </table>
-        <img style="border-color: white;"" src="alphasun.png" alt="Sun" width="700" height="500">
-        <p> Resource Hub is an initiative by the students of Computer Science Department,UC College Aluva</p>
-    </body>
+    <title>reshubucc</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: ghostwhite;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: left;
+            margin: 0;
+        }
+
+        table {
+            border-spacing: 10px;
+            text-align: center;
+            margin: auto;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        img {
+            border-color: white;
+            display: block;
+            margin: auto;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        input[type="text"] {
+            padding: 5px;
+            width: 150px;
+        }
+    </style>
 </head>
+
+<body>
+    <header>
+        <input type="text" placeholder="Search...">
+        <h1>Resource Hub</h1>
+    </header>
+    <table>
+        <tr>
+            <th><a href="alpha.html">Home</a></th>
+            <th><a href="alphatopic.html">C++</a></th>
+            <th>HTML</th>
+            <th>PHP</th>
+            <th>SQL</th>
+            <th>Java</th>
+        </tr>
+    </table>
+    <img src="alphasun.png" alt="Sun" width="700" height="500">
+    <p>Resource Hub is an initiative by the students of the Computer Science Department, UC College Aluva</p>
+</body>
+
 </html>
