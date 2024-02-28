@@ -86,3 +86,16 @@ a:link,a:visited {
 .linked:hover {
   color: red;
 }
+
+#divs {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div {
+  float: left;
+  height: 470px;
+  width: 23%;
+  padding: 0 10px;
+}
