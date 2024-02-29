@@ -13,6 +13,7 @@ body {
         
 
         header {
+          font-family: Georgia, 'Times New Roman', Times, serif;
             display: flex;
             justify-content: space-between;
             width: 100%;
@@ -176,3 +177,12 @@ img{
   margin-right: auto;
 }
 
+.nabla-font1 {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
