@@ -93,24 +93,34 @@ a:link,a:visited {
 /*Made a different class for the hyperlinks in topic page*/
 .linked:link,.linked:visited {
   font-weight: bold;
-  color: blue;
+  color: rgb(7, 7, 88);
 }
 
 .linked:hover {
-
-  color: red;
+  
+  color: white;
 }
 /*Trying to make the embedded video and links side by side*/
+.gridcontainer > div {
+  border: 2px solid gray;
+  border-radius: 5px;
+  background-color: white;
+  padding: 1em;
+  color: rgb(2, 13, 67);
+}
+
 .gridcontainer{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: ;
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
 
 div{
   background-color: white;
   border-radius: 10px;
 }
+
 
 img{
   border-radius: 10px;
