@@ -71,8 +71,20 @@ body {
     margin: 20px;
     border-radius: 15px;
     font-family: 'Ariel', sans-serif;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* values in the box-shadow property are, the horizontal offset, vertical offset, blur radius, and color of the shadow */
+    box-shadow: 0 0 10px rgba(0, 157, 255, 0.3); /* values in the box-shadow property are, the horizontal offset, vertical offset, blur radius, and color of the shadow */
 
+}
+
+.block:hover{
+  padding-block: 8em;
+    padding-inline: 10em;
+    border: 10px solid rgb(8, 8, 91);
+    background-color: white;
+    color: black;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: 'Ariel', sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
 }
 
 .row {
