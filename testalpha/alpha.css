@@ -19,8 +19,8 @@ body {
         }
 
         h1 {
-          
-            text-align: left;
+            display: flex;
+            text-align:center;
             margin: 0;
         }
 
