@@ -101,29 +101,13 @@ a:link,a:visited {
   color: red;
 }
 /*Trying to make the embedded video and links side by side*/
+.gridcontainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: ;
+}
 
 div{
   background-color: white;
   border-radius: 10px;
 }
-.gridcontainer{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2,1fr);
-  gap: 20px;
-}
-
-.div2{
-grid-column: 4/4;
-grid-row: 1;
-}
-
-.div1{
-grid-column: 2/4;
-grid-row: 2;
-}
-
-.div3{
-  grid-column: 2/4;
-  grid-row: 2;
-  }
