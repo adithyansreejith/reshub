@@ -106,8 +106,32 @@ a:link,a:visited {
 }
 
 div {
-  float: left;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  background-color: white;
   height: 470px;
-  width: 23%;
+  width: 20%;
   padding: 0 10px;
+}
+
+#div1 {
+  float: left;
+   
+}
+
+#div2{
+  
+  float: left;
+  width: 50%;
+  
+}
+
+#div3{
+  float: right;
+ 
+}
+
+h2{
+  text-align: center;
 }
