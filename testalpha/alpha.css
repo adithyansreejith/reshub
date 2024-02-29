@@ -1,5 +1,7 @@
 body {
-            background-color: black;
+  background-image: linear-gradient(95deg, hsl(242, 53%, 34%) 0%, hsl(195, 51%, 54%) 40%, hsl(276, 21%, 55%) 94%, hsl(262, 20%, 49%) 100%);
+  background-size: 300%;
+  animation: bg-animation 9s infinite alternate;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: ghostwhite;
             display: flex;
@@ -17,18 +19,28 @@ body {
         }
 
         h1 {
+          
             text-align: left;
             margin: 0;
         }
 
         table {
+          border-style:solid;
+          border-radius: 10px;
+          min-width: 95vw;
+          margin: 2em auto;
+          border-color: white;
+          border-width: 1px;
+          background-color: white;
+
             border-spacing: 10px;
             text-align: center;
             margin: auto;
         }
 
         th, td {
-            padding: 10px;
+          border-color: white;
+            
         }
 /*from curiosity repository*/
 .heading-container {
@@ -69,13 +81,13 @@ body {
 }
 /*for links given on top*/
 a:link,a:visited {
-            color: white;
+            color: black;
             text-decoration: none;
         }
 
         a:hover, a:active {
-             background-color: white;
-             color: black;
+             background-color: black;
+             color: white;
         } 
 /*Made a different class for the hyperlinks in topic page*/
 .linked:link,.linked:visited {
