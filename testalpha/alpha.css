@@ -39,10 +39,17 @@ body {
             margin: auto;
         }
 
+
         th, td {
           border-color: white;
             
         }
+        
+        th:hover {
+          background-color: rgb(65, 118, 250);
+          border-radius: 10px;
+        }
+
 /*from curiosity repository*/
 .heading-container {
     display: flex;
@@ -99,7 +106,7 @@ a:link,a:visited {
         }
 
         a:hover, a:active {
-             background-color: black;
+             
              color: white;
         } 
 /*Made a different class for the hyperlinks in topic page*/
@@ -110,7 +117,7 @@ a:link,a:visited {
 
 .linked:hover {
   
-  color: white;
+  color: rgb(14, 2, 48);;
 }
 /*Trying to make the embedded video and links side by side*/
 .gridcontainer > div {
@@ -135,6 +142,10 @@ div{
 
 
 img{
+  width: 1366px;height: 500px;
   border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
