@@ -97,52 +97,33 @@ a:link,a:visited {
 }
 
 .linked:hover {
+
   color: red;
 }
 /*Trying to make the embedded video and links side by side*/
-#divs {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-div {
-  border-style: solid;
-  border-radius: 10px;
-  border-color: black;
+div{
   background-color: white;
-  height: 470px;
-  width: 20%;
-  padding: 0 10px;
+  border-radius: 10px;
+}
+.gridcontainer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 20px;
 }
 
-#div1 {
-  float: left;
-   
+.div2{
+grid-column: 4/4;
+grid-row: 1;
 }
 
-#div2{
-  
-  float: left;
-  width: 50%;
-  
+.div1{
+grid-column: 2/4;
+grid-row: 2;
 }
 
-#div3{
-  float: right;
- 
-}
-
-h2{
-  text-align: center;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border-radius: 8px;
-  max-width: 100%;
-  height: auto;
-}
+.div3{
+  grid-column: 2/4;
+  grid-row: 2;
+  }
