@@ -1,3 +1,2 @@
 # reshub
-resources for cs students
-https://adithyansreejith.github.io/res-hub/
+It is an initiative by CS students of UC college to provide necessary resources to students.
