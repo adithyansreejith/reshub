@@ -14,6 +14,7 @@ body {
 .whole-container {
   background: linear-gradient(-45deg, #460980, #030a57, #244c9b, #2b01ff);
 	animation:gradient 15s ease infinite;
+  min-height: 200px;
 }
 
 h1 {
