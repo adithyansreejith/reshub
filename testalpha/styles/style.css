@@ -65,8 +65,8 @@ a {
 
 .topic-container {
   display: flex;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: space-evenly;
+  align-content: space-evenly;
   padding: 25px;
   max-width: 100%;
 }
