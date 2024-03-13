@@ -8,15 +8,17 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
+  background-color: rgb(96 165 250);
 }
 
 .whole-container {
-  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  background: linear-gradient(-45deg, #460980, #030a57, #244c9b, #2b01ff);
+	animation:gradient 15s ease infinite;
 }
 
 h1 {
-  color: black;
-  text-shadow: 2px 2px 4px #f5f5f5;
+  color: white;
+  text-shadow: 2px 2px 4px #030303;
 }
 
 a {
@@ -83,7 +85,8 @@ a {
 .topic:hover,
 .topic a:hover {
   transform: translateY(-3px);
-  color: #000;
+  color:#030a57;
+  background-color: #e3e8f3;
 }
 
 .topic:active,
@@ -130,7 +133,7 @@ img {
   justify-content: space-around;
   border-radius: 28px;
   padding: 35px;
-  background-image: linear-gradient(135deg, #93a5cf, #e4efe9);
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   transition: transform 0.4s box-shadow 0.4s;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
 }
@@ -141,26 +144,27 @@ img {
 }
 span a{
   font-size: 1.3rem;
-  color: #f5f5f5;
+  color: #001afffd;
   transition: color 0.3s transform 0.4s;
   display: inline-block;
 }
 span a:hover,
 span a:active{
   transform: translateY(-3px);
-  color: #000;
+  color: #fc0000;
 }
 /* The following styles are only specific for alphatopic.html */
 
 .block {
   display: flex;
-  color: hsl(0, 0%, 100%);
+  color: hsl(239, 95%, 33%);
   padding: 4rem 2rem;
   justify-content: center;
   align-items: center;
   border-radius: 12px;
   font-size: 1.5rem;
   text-shadow: 1px 2px 2px #dcdcdc;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.10);
   transition: box-shadow 0.20s translateY 1.5s;
 }
@@ -174,27 +178,27 @@ span a:active{
 .block:active {
   transform: translateY(-4px);
 }
-
+/*
 .one {
-  background-color: hsl(221, 100%, 74%);
+  background-color: hsl(221, 60%, 43%);
 }
 
 .two {
-  background-color: hsl(276, 54%, 50%);
+  background-color: hsl(221, 60%, 43%);
 }
 
 .three {
-  background-color: hsl(275, 57%, 81%);
+  background-color: hsl(221, 60%, 43%);
 }
 
 .four {
-  background-color: hsl(193, 78%, 73%);
+  background-color: hsl(221, 60%, 43%);
 }
 
 .five {
-  background-color: hsl(291, 68%, 84%);
+  background-color: hsl(221, 60%, 43%);
 }
 
 .six {
-  background-color: hsl(0, 0%, 81%);
-}
+  background-color: hsl(221, 60%, 43%);
+}*/
