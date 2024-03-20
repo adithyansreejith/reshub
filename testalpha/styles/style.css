@@ -12,8 +12,11 @@ body {
 }
 
 .whole-container {
+  position: absolute;
   background: linear-gradient(-45deg, #460980, #030a57, #244c9b, #2b01ff);
 	animation:gradient 15s ease infinite;
+  min-width: 100%;
+  
 }
 
 h1 {
@@ -65,10 +68,10 @@ a {
 
 .topic-container {
   display: flex;
-  justify-content: space-between;
-  align-content: space-between;
-  padding: 25px;
-  max-width: 100%;
+  justify-content:center;
+  align-content:center;
+  padding: 10px;
+ 
 }
 
 .topic,
@@ -96,6 +99,10 @@ a {
 }
 
 .content-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-image: white;
   display: flex;
   flex-direction: column;
@@ -108,10 +115,12 @@ p {
 }
 
 img {
-  width: 50rem;
-  max-width: 100%;
-  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   border-radius: 12px;
+  
 }
 
 /* The following styles are only specific for alpvid.html */
