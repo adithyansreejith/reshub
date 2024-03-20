@@ -12,7 +12,7 @@ body {
 }
 
 .whole-container {
-  position: absolute;
+  /*position: absolute;*/
   background: linear-gradient(-45deg, #460980, #030a57, #244c9b, #2b01ff);
 	animation:gradient 15s ease infinite;
   min-width: 100%;
