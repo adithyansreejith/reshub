@@ -13,7 +13,7 @@ body {
 
 .whole-container {
   /*position: absolute;*/
-  background: linear-gradient(-45deg, #460980, #030a57, #244c9b, #2b01ff);
+  background: linear-gradient(-45deg, #460980, #030a57, #132b5a, #140172);
 	animation:gradient 15s ease infinite;
   min-width: 100%;
   
@@ -111,6 +111,7 @@ a {
 }
 
 p {
+  color: #e3e8f3;
   margin: 2rem auto;
 }
 
