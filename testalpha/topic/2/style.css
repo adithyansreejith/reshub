@@ -1,0 +1,213 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: rgb(96 165 250);
+}
+
+.whole-container {
+  /*position: absolute;*/
+  background: linear-gradient(-45deg, #460980, #030a57, #244c9b, #2b01ff);
+	animation:gradient 15s ease infinite;
+  min-width: 100%;
+  
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #030303;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+}
+
+.search-container {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  padding: 14px;
+  border-radius: 28px;
+  background-color: #f6f6f6;
+  transition: box-shadow 0.4s background-color 0.4s;
+}
+
+.search-container:focus-within {
+  background-color: #f3f3f3;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.search-input {
+  font-size: 16px;
+  color: #333333;
+  margin-left: 14px;
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 18rem;
+}
+
+.search-input::placeholder,
+.search-icon {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.topic-container {
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  padding: 10px;
+ 
+}
+
+.topic,
+.topic a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 20px 50px;
+  border-radius: 28px;
+  transition: translateY 0.4s color 0.4s;
+  max-width: 100%;
+}
+
+.topic:hover,
+.topic a:hover {
+  transform: translateY(-3px);
+  color:#030a57;
+  background-color: #e3e8f3;
+}
+
+.topic:active,
+.topic a:active {
+  transform: translateY(-4px);
+  color: #000;
+}
+
+.content-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+p {
+  margin: 2rem auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 12px;
+  
+}
+
+/* The following styles are only specific for alpvid.html */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 28px;
+  padding: 35px;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  transition: transform 0.4s box-shadow 0.4s;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+.col:hover,
+.col:focus-within{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  transform: translate(-3px,-5px);
+}
+span a{
+  font-size: 1.3rem;
+  color: #001afffd;
+  transition: color 0.3s transform 0.4s;
+  display: inline-block;
+}
+span a:hover,
+span a:active{
+  transform: translateY(-3px);
+  color: #fc0000;
+}
+/* The following styles are only specific for alphatopic.html */
+
+.block {
+  display: flex;
+  color: hsl(239, 95%, 33%);
+  padding: 4rem 2rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  text-shadow: 1px 2px 2px #dcdcdc;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.10);
+  transition: box-shadow 0.20s translateY 1.5s;
+}
+
+.block:hover,
+.block:focus {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+
+.block:active {
+  transform: translateY(-4px);
+}
+/*
+.one {
+  background-color: hsl(221, 60%, 43%);
+}
+
+.two {
+  background-color: hsl(221, 60%, 43%);
+}
+
+.three {
+  background-color: hsl(221, 60%, 43%);
+}
+
+.four {
+  background-color: hsl(221, 60%, 43%);
+}
+
+.five {
+  background-color: hsl(221, 60%, 43%);
+}
+
+.six {
+  background-color: hsl(221, 60%, 43%);
+}*/
