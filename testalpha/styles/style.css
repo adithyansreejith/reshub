@@ -5,6 +5,7 @@
 }
 
 body {
+  
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -111,7 +112,7 @@ a {
 }
 
 p {
-  color: #e3e8f3;
+  color: #030b1e;
   margin: 2rem auto;
 }
 
